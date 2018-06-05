@@ -17,7 +17,8 @@ processSingleCellData.R - Contains all the functions necessary to pre-process, c
 pipelineScript.R - Provides an example of how the functions in processSingleCellData.R are joined together to form a "pipeline" used to process the data.
 
 genotyping.R - Provides the functions necessary to genotype individual cells from bulk DNA data.
- similarity.R - Provides the functions used to train the logistic regression model used to infer cluster similarity.
+
+similarity.R - Provides the functions used to train the logistic regression model used to infer cluster similarity.
 
 postPipeline.R - Runs the genotyping and similarity code over the output of the pipeline script and stores the result in intermediate files.
 
